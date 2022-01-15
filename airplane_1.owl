@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xml:base="http://localhost:8080/owl/1066b65c30d153e04c3a35cee92bb95b.owl"
+         xmlns="http://localhost:8080/owl/1066b65c30d153e04c3a35cee92bb95b.owl#">
+
+<owl:Ontology rdf:about="http://localhost:8080/owl/1066b65c30d153e04c3a35cee92bb95b.owl"/>
+
+<owl:Class rdf:about="#Size">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Height">
+  <rdfs:subClassOf rdf:resource="#Size"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Width">
+  <rdfs:subClassOf rdf:resource="#Size"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Length">
+  <rdfs:subClassOf rdf:resource="#Size"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Location">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#X_Location">
+  <rdfs:subClassOf rdf:resource="#Location"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Y_Location">
+  <rdfs:subClassOf rdf:resource="#Location"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Z_Location">
+  <rdfs:subClassOf rdf:resource="#Location"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Airplane">
+  <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Name">
+  <rdfs:subClassOf rdf:resource="#Airplane"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Synset">
+  <rdfs:subClassOf rdf:resource="#Airplane"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Lemma">
+  <rdfs:subClassOf rdf:resource="#Synset"/>
+</owl:Class>
+
+<owl:Class rdf:about="#numVertices">
+  <rdfs:subClassOf rdf:resource="#Airplane"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Parts">
+  <rdfs:subClassOf rdf:resource="#Airplane"/>
+</owl:Class>
+
+<owl:Class rdf:about="#Body">
+  <rdfs:subClassOf rdf:resource="#Parts"/>
+</owl:Class>
+
+
+</rdf:RDF>

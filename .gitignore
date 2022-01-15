@@ -1,0 +1,16 @@
+*.pyc
+*.h5
+*.log
+*.png
+*.eps
+*.tar.gz
+*.txt
+*.asc
+*airplane_result.json
+data
+log
+papers
+part_seg/PartAnnotation/02691156
+part_seg/hdf5_data
+part_seg/train_results
+part_seg/test_results
