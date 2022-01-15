@@ -6,7 +6,7 @@
 *.tar.gz
 *.txt
 *.asc
-*.json
+airplane_result.json
 data
 log
 papers
